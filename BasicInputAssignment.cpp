@@ -200,6 +200,7 @@ int main()
 	cout << left << setw(30) << "Hours Played: " << setw(40) << hoursPlayed << endl;
 	cout << left << setw(30) << "Value per Hour Played: " << "$" << setw(39) << gameValue << endl;
 	cout << left << setw(30) << "Value Tier: " << setw(40) << valueTier << endl;// New line for value tier.
+	report << left << setw(30) << "Value Tier " << setw(40) << valueTier << endl;
 	cout << string(90, '-') << endl;
 
 
@@ -290,3 +291,4 @@ int main()
 
 	
 //ai copilot was uses mostly for syntax and code structure suggestions and comments which were incredibly helpful.
+
